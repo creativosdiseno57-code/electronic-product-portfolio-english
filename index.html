@@ -5,134 +5,137 @@
 <title>My English Learning Blog</title>
 
 <style>
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #f4f6f9;
-        margin: 0;
-        padding: 0;
-    }
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #667eea, #764ba2);
+    color: #333;
+}
 
-    header {
-        background-color: #4a90e2;
-        color: white;
-        text-align: center;
-        padding: 20px;
-    }
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
 
-    section {
-        margin: 20px;
-        padding: 20px;
-        background: white;
-        border-radius: 10px;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
+header {
+    text-align: center;
+    color: white;
+    padding: 30px 10px;
+}
 
-    h2 {
-        color: #4a90e2;
-    }
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
 
-    a {
-        display: inline-block;
-        margin-top: 10px;
-        padding: 10px;
-        background-color: #4a90e2;
-        color: white;
-        text-decoration: none;
-        border-radius: 5px;
-    }
+.card {
+    background: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
 
-    a:hover {
-        background-color: #357abd;
-    }
+h2 {
+    color: #764ba2;
+}
 
-    img {
-        width: 100%;
-        border-radius: 10px;
-        margin-top: 10px;
-    }
+p {
+    line-height: 1.6;
+}
 
-    footer {
-        text-align: center;
-        padding: 15px;
-        background-color: #ddd;
-        margin-top: 20px;
-    }
+a.button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #667eea;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a.button:hover {
+    background: #5a67d8;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
 </style>
 
 </head>
 
 <body>
 
+<div class="container">
+
 <header>
     <h1>My English Learning Blog</h1>
-    <p><strong>Foro de Inglés y Mi Aprendizaje</strong></p>
+    <p>Foro de Inglés y Mi Aprendizaje</p>
 </header>
 
-<section>
+<div class="card">
     <h2>📖 About this Blog / Sobre este blog</h2>
     <p>
-        This blog shows my learning process in English. Here you can find my activities,
-        audio recordings, and academic work that demonstrate my progress during the course.
+        This blog shows my English learning process. Here you can find my activities,
+        audio recordings, and academic work that demonstrate my progress.
     </p>
     <p>
-        Este blog muestra mi proceso de aprendizaje en inglés. Aquí puedes encontrar mis actividades,
-        audios y trabajos académicos que demuestran mi progreso durante el curso.
+        Este blog muestra mi proceso de aprendizaje en inglés. Aquí encontrarás actividades,
+        audios y trabajos que demuestran mi progreso.
     </p>
 
-    <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f" alt="Learning English">
-</section>
+    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f">
+</div>
 
-<section>
-    <h2>🎧 English Audio / Audio en Inglés</h2>
-    <p>
-        In this section, you can listen to my English audio activity.
-    </p>
-    <p>
-        En esta sección puedes escuchar mi actividad de audio en inglés.
-    </p>
+<div class="card">
+    <h2>🎧 English Audio</h2>
+    <p>Listen to my pronunciation and speaking practice.</p>
 
-    <a href="https://drive.google.com/file/d/14bdodq2qKRDn4j90ZvzYzg3mcdtxyFMj/view?usp=drivesdk" target="_blank">
-        Listen to my audio
+    <a class="button" href="https://drive.google.com/file/d/14bdodq2qKRDn4j90ZvzYzg3mcdtxyFMj/view?usp=drivesdk" target="_blank">
+        Listen Audio
     </a>
 
-    <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d" alt="Audio">
-</section>
+    <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d">
+</div>
 
-<section>
-    <h2>📘 Personal Learning / Aprendizaje Personal</h2>
-    <p>
-        This document explains my personal learning process and development in English.
-    </p>
-    <p>
-        Este documento explica mi proceso de aprendizaje personal en inglés.
-    </p>
+<div class="card">
+    <h2>📘 Personal Learning</h2>
+    <p>This document explains my personal learning process.</p>
 
-    <a href="https://drive.google.com/file/d/18iCVeM-HWOYQ4WRvSnXW5osX0HyBL2P9/view?usp=drivesdk" target="_blank">
-        View Personal Learning PDF
+    <a class="button" href="https://drive.google.com/file/d/18iCVeM-HWOYQ4WRvSnXW5osX0HyBL2P9/view?usp=drivesdk" target="_blank">
+        View PDF
     </a>
 
-    <img src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8" alt="Study">
-</section>
+    <img src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8">
+</div>
 
-<section>
-    <h2>📊 Flowchart / Diagrama de Flujo</h2>
-    <p>
-        Here you can see my flowchart activity related to the learning process.
-    </p>
-    <p>
-        Aquí puedes ver mi diagrama de flujo relacionado con el aprendizaje.
-    </p>
+<div class="card">
+    <h2>📊 Flowchart</h2>
+    <p>This is my flowchart about the learning process.</p>
 
-    <a href="https://drive.google.com/file/d/1TMbfV2BKPqunMK-sD3rBc63arY-wbJ4a/view?usp=drivesdk" target="_blank">
-        View Flowchart PDF
+    <a class="button" href="https://drive.google.com/file/d/1TMbfV2BKPqunMK-sD3rBc63arY-wbJ4a/view?usp=drivesdk" target="_blank">
+        View Flowchart
     </a>
 
-    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71" alt="Flowchart">
-</section>
+    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71">
+</div>
 
 <footer>
-    <p>Created by Student - English Learning Blog</p>
+    <p>English Blog - Student Project</p>
 </footer>
+
+</div>
 
 </body>
 </html>
